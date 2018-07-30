@@ -1,0 +1,35 @@
+
+.My-Posts {
+  width:80%;
+  margin:auto;
+  h1 {
+    font-size: 26px;
+    font-weight: 400;
+    margin: 20px auto;
+  }
+  .post {
+    margin-top:30px;
+    text-align: left;
+    border: 1px dashed black;
+    padding: 5px;
+    border-radius: 5px;
+    width: 50%;
+  }
+  h3{
+    font-size: 18px;
+    &:first-letter{
+      text-transform: uppercase;
+    }
+    span{
+      float: right;
+      color: darkred;
+      display: none;
+      cursor: pointer;
+      user-select: none;
+    }
+    &:hover span{
+      display: block;
+    }
+  }
+
+}

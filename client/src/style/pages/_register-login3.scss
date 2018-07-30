@@ -1,0 +1,38 @@
+.Register-Login{
+  width: 35%;
+  margin:auto;
+  display:flex;
+  justify-content: space-around;
+  flex-wrap:wrap;
+  margin-top: 20px;
+
+  form{
+    text-align: center;
+  }
+  input{
+    font-size: 23px;
+    margin-top: 15px;
+    border:1px solid $light-purple;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  button{
+    font-size: 22px;
+    width: 249px;
+    margin-top: 15px;
+    background: $light-purple;
+    color: white;
+    border:1px solid $light-purple;
+    border-radius: 5px;
+    padding: 5px;
+    &:hover{
+      background: $dark-purple;
+    }
+  };
+.message{
+  font-weight: 600;
+  font-size: 24px;
+  color: $dark-purple;
+  border-bottom: 3px solid $light-purple;
+}
+}

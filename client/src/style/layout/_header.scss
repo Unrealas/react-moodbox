@@ -1,0 +1,19 @@
+header{
+  display:flex;
+  justify-content: space-between;
+  padding: 10px;
+  background: $dark-purple;
+  color: white;
+  border-bottom: 5px solid $light-purple;
+  font-family: Arial;
+  h1{
+    font-size: 24px;
+  }
+  a{
+    margin-left: 15px;
+  }
+  nav{
+    display:flex;
+    align-items:center;
+  }
+}

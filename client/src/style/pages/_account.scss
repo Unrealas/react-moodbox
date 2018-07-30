@@ -1,0 +1,24 @@
+.Account {
+  aside {
+    float: left;
+    width: 20%;
+    margin-top: 20px;
+    a {
+      font-size: 20px;
+      display: block;
+      text-align: left;
+      width: 80%;
+      margin: 10px auto;
+      padding: 10px 5px;
+      box-sizing: border-box;
+      background: $dark-purple;
+      border-radius: 5px;
+      color: white;
+    }
+  }
+  .container {
+    float: right;
+    width: 80%;
+  }
+}
+

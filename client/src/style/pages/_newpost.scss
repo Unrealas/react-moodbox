@@ -1,0 +1,64 @@
+.NewPost {
+  h1 {
+    font-size: 26px;
+    font-weight: 400;
+    margin: 20px auto;
+
+  }
+  form {
+    width: 80%;
+    margin: 20px auto;
+  }
+  input{
+    font-size: 18px;
+    display:block;
+    width: 60%;
+    margin: 20px auto;
+    border: none;
+    text-align: center;
+    outline: none;
+    background: #d0d0d0;
+    border-bottom: 2px solid $light-purple;
+  }
+  textarea{
+    width: 95%;
+    box-sizing: border-box;
+    min-height: 300px;
+    display: block;
+    background: #d0d0d0;
+    border: 1px solid $light-purple;
+    font-family: inherit;
+    outline: none;
+    font-size: 18px;
+    margin: auto;
+  }
+  button{
+    width: 60%;
+    display:block;
+    font-size: 18px;
+    line-height: 26px;
+    cursor: pointer;
+    color: white;
+    background: $light-purple;
+    margin:20px auto;
+  }
+  .dropzone{
+    margin-top:  20px;
+    margin-left: 20px;
+    width: 95%;
+    .post-image{
+      width: 100%;
+      height: 200px;
+      border: 1px dashed black;
+      border-radius: 15px;
+      background-size: cover;
+      background-position: center;
+      z-index:900;
+    }
+    p{
+      text-align: center;
+      margin-top: 5px;
+    }
+  }
+
+}
